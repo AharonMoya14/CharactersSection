@@ -1,0 +1,454 @@
+/*
+ All Rights Reserved
+ This software is property information of AKUREY S.A.
+ Contact us at contact@akurey.com
+ @summary Task 3 css code
+*/
+.general{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin: 0px;
+}
+
+.header{
+    position: relative;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    margin: 0 auto;
+    height: 78px;
+    justify-content: center;
+}
+.hamburgerMenu{
+    display:none;
+    position: absolute;
+    flex-direction: column;
+    top: 76px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 3px #F3F3F3;
+    width: 100%;
+    height: 406px;
+    z-index: 1;
+    justify-content: center;
+}
+.navbarMobile{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    margin: 0 auto;
+    margin-bottom: 46px;
+    align-items: center;
+}
+.navbarText{
+    white-space: nowrap;
+    height: 24px;
+    font-family: 'Roboto Slab', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    color: #575757;
+    text-decoration: none;
+}
+.navbarText__active{
+    color: #0C75AF;
+}
+.languageHamburger{
+    width: 169px;
+    height: 30.79px;
+}
+.menu{
+    position: absolute;
+    display: flex;
+    width: 12px;
+    height: 12px;
+    left: 19px;
+}
+.menu__open{
+    width: 18px;
+    height: 16px;
+}
+.mainLogo{
+    position: absolute;
+    height: 40px;
+    margin: auto;
+}
+.navbar{
+    display: none;
+}
+.sinopsisBackgroundContainer{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.background{
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 66.666vw;
+    margin: 0 auto;
+}
+.backgroundImgTablet{
+    display: none;
+}
+.backgroundImg{
+    display: flex;
+    width: 100%;
+    height: 66.666vw;
+    position: absolute;
+    z-index: -1;
+}
+.backgroundImgDesktop{
+    display: none;
+}
+.whiteFade{
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 163px;
+    left: 0px;
+    align-self: flex-end;
+    margin-bottom: -1px;
+    background: linear-gradient(180deg, rgba(196, 196, 196, 0) 0%, #FFFFFF 91.54%);
+}
+.objectHeader__title{
+    position: absolute;
+    width: 164px;
+    height: 40px;
+    white-space: nowrap;
+    font-family: 'Roboto Slab', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 40px;
+    display: flex;
+    align-self: flex-end;
+    text-align: center;
+    color: #171717;
+    margin-bottom: 0px;
+    margin-left: 3.8461538vw;
+}
+
+.textBoxSearch{
+    position: relative;
+    box-sizing: border-box;
+    display: flex;
+    margin: 32px auto 0px auto; 
+    flex-direction: row;
+    align-items: center;
+    gap: 23px;
+    width: 91.7948718%;
+    height: 56px;
+    border: 1px solid #B5B5B5;
+    border-radius: 6px;
+    margin-bottom: 48px;
+}
+.textBoxSearch__image{
+    position: absolute;
+    margin-left: 8px;
+    width: 24px;
+    height: 24px;
+}
+.textBoxSearch__text{
+    position: absolute;
+    width: 275px;
+    height: 20px;
+    margin-left: 55px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.25px;
+    resize: none;
+    overflow: hidden;
+    border: none;
+    color: #7D7D7D;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+
+
+.characters{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0px;
+    gap: 5.1282051vw;
+    width: 91.7948718%;
+    height: auto;
+    margin: 0 auto;
+    margin-bottom: 103px;
+}
+
+.characters__card__name{
+    position: absolute;
+    white-space: nowrap;
+    left: 50%;
+    transform: translate(-50%, 0);
+    height: 29.75px;
+    top: 162.67px;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: white;   
+
+}
+
+.characters__card{
+    display: flex;
+    position: relative;
+    width: 169.12px;
+    height: 214.73px;
+}
+.characters__card__hidden{
+    display: none;
+}
+.characters__card__gradient{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    background: linear-gradient(179.8deg, rgba(255, 255, 255, 0) 50.33%, #000000 97.62%);
+    mix-blend-mode: multiply;
+    border-radius: 16.354px;
+}
+.characters__card__image{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    border-radius: 16.354px;
+}
+
+
+.endSection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 38px;
+    width: 100%;
+    height: 271px;
+    background: #0C75AF;
+}
+.skull{
+    width: 97px;
+    height: 89px;
+    margin-top: 48px;
+}
+.textEnd{
+    margin: 0;
+    width: 286px;
+    height: 48px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.4px;
+    color: #FFFFFF;
+}
+
+
+@media screen and (min-width: 768px) {
+    .hamburgerMenu{
+        top: 107px;
+    }
+    .menu{
+        left: 67px;
+    }
+    .background{
+        height: 50.390625vw; 
+    }
+    .backgroundImg{
+        display:none;
+        
+    }
+    .backgroundImgTablet{
+        display: flex;
+        width: 100%;
+        height: 50.390625vw;  
+    }
+    .whiteFade{
+        height: 311px;
+    }
+    .objectHeader__title{
+        margin-left: 8.3333333vw;
+        margin-bottom: 16px;
+    }
+    .header{
+        height: 109px;
+    }
+    .menu{
+        left: 67px;
+    }
+    .mainLogo{
+        height: 58px;
+    }
+    .textBoxSearch{
+        width: 83.3333333%;
+        margin-bottom: 32px;
+    }
+    .objectHeader{
+        width: 83.3333333%;
+    }
+
+    .characters{
+        width: 83.3333333%;
+        margin-bottom: 70px;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 2.260416666vw;
+    }
+    .characters__card{
+        width: 145px;
+        height: 184.1px;    
+    }
+    .characters__card__hidden{
+        display: flex;
+    }
+    .characters__card__image{
+        border-radius: 13.5466px;
+        height: 184.1px;
+    }
+    .characters__card__name{
+        height: 23.91px;
+        top: 140.27px;
+        font-family: 'Roboto Slab', serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 20px;
+        letter-spacing: 0.1px;
+    }
+    .characters__card__gradient{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0px;
+        background: linear-gradient(179.8deg, rgba(255, 255, 255, 0) 50.33%, #000000 97.62%);
+        mix-blend-mode: multiply;
+        border-radius: 13.5466px;
+    }
+
+    .endSection{
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    .skull{
+        margin-top: 0;
+    }
+    .textEnd{
+        text-align: start;
+    }
+}
+
+
+@media screen and (min-width: 1280px) {
+    .hamburgerMenu{
+        display: none;
+    }
+    .header{
+        width: auto;
+        height: 100px;
+        margin: 0px auto 0px 13.28125vw;
+        justify-content: flex-start;
+    }
+    .menu{
+        display: none;
+    }
+    .mainLogo{
+        position: absolute;
+        width: 163px;
+        height: 58px;
+        margin-left: 0;
+    }
+    .navbar{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 48px;
+        position: absolute;
+        width: auto;
+        height: 30.79px;
+        left: 232px;
+        top: 35px;
+    }
+    .language{
+        width: 90px;
+        height: 30.79px;
+    }
+    .background{
+        height: 28.28125vw; 
+    }
+    .backgroundImgTablet{
+        display: none;
+    }
+    .backgroundImg{
+        display: none;
+    }
+    .backgroundImgDesktop {
+        display: flex;
+        width: 100%;
+        height: 28.28125vw;
+        position: absolute;
+        z-index: -1;
+    }
+    .whiteFade{
+        height: 192px;
+    } 
+    .objectHeader__title{
+        margin-left: 13.90625vw;
+        margin-bottom: -14px;
+    }
+
+    .textBoxSearch{
+        width: 73.4375%;
+        margin-top: 62px;
+        margin-bottom: 48px;
+    }
+    
+    .characters{
+        width: 73.4375%;
+        gap: 1.5625vw;
+    }
+    .characters__card{
+        width: 219.74px;
+        height: 279px;
+    }
+    .characters__card__image{
+        border-radius: 20.5295px;
+        height: 279px;
+    }
+    .characters__card__name{
+        height: 38.65px;
+        top: 211.36px;
+        font-family: 'Roboto Slab', serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 28px;
+        letter-spacing: 0.1px;
+    }
+    .characters__card__gradient{
+        border-radius: 20.5295px;
+    }
+    
+    
+}
